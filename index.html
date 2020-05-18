@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piedra, Papel o Tijera</title>
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <div class="web-container">
+    <header class="header">
+      <h1 class="header-title">Piedra, Papel o Tijera</h1>
+      <h2 class="header-subtitle">THE GAME</h2>
+    </header>
+    <main class="main">
+      <button type="button" id="btnInfo" class="info" onclick="info()"></button>
+      <section class="timer-container">
+        <figure class="timer-img"></figure>
+        <span id="timer" class="timer">---</span>
+      </section>
+      <section class="game-container">
+        <div class="game">
+          <div class="player">
+            <span id="playerName" class="player-name"></span>
+            <figure id="optionImgPlayer" class="option-img"></figure>
+            <strong id="resultPlayerRound" class="result-round"></strong>
+          </div>
+          <div class="score-container">
+            <span id="roundText" class="round-text hide">LA RONDA EMPIEZA EN:</span>
+            <span id="vs" class="vs">VS</span>
+            <span id="score" class="score">---</span>
+          </div>
+          <div class="player">
+            <span id="AIName" class="player-name hide">IA</span>
+            <figure id="optionImgAI" class="option-img"></figure>
+            <strong id="resultAIRound" class="result-round"></strong>
+          </div>
+        </div>
+        <div id="startContainer" class="start-container">
+          <button type="button" id="btnStart" class="start-button" onclick="startGame()">JUGAR</button>
+        </div>
+        <div id="buttonsContainer" class="buttons-container hide">
+          <button type="button" id="btnRock" class="rock" data-option="rock-option"></button>
+          <button type="button" id="btnPaper" class="paper" data-option="paper-option"></button>
+          <button type="button" id="btnScissors" class="scissors" data-option="scissors-option"></button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <strong class="footer-title">Desarollado por Naftan | &copy; 2020</strong>
+    </footer>
+  </div>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
