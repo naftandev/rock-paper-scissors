@@ -1,13 +1,11 @@
 # Rock, paper or scissors - The Game
 Have fun playing this classic game now digitally
 
-### Technologies used
+### Stack
 * HTML5
 * CSS3
 * JavaScript
 
-### Collaboration
-You are free to take the project or collaborate to make it better and more complete
 
 ### Preview
-[![N|Solid](https://repository-images.githubusercontent.com/264963852/14fb3c80-98ea-11ea-99ea-41e198e33dfd)](https://devnaftan.github.io/rock-paper-scissors/)
+[![N|Solid](https://repository-images.githubusercontent.com/264963852/7db26961-f711-44ef-8770-798bb19ccec2)](https://devnaftan.github.io/rock-paper-scissors/)
